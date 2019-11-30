@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+body{
+  background-color:#EAEDED;
+  background-image: url("img/p_da0666_m_da06660.jpg");
+}
+
+.col-sm-9{
+  background-color:#FFF;
+  max-width:800px;
+}
+
+.longwidth{
+  max-width:1200px !important;
+}
+
+.HeadNavi{
+  color: #FFF !important;
+  background-color:#272727 !important;
+  height:60px;
+}
+
+.nav-link{
+  color:#FFF !important;
+  text-decoration:none !important;
+  }
+
+h1{
+  color:#FFF !important;
+  text-decoration:none !important;
+  }
+
+h2{
+  display:inline;
+}
+
+.width100 {
+  width:100%;
+}
+
+.width90 {
+  width:90%;
+}
+
+.padding10 { 
+  margin: 30px; 
+  padding: 10px; 
+}
+
+.padding5 { 
+  margin: 15px; 
+  padding: 5px; 
+}
+
+.paddingleft5 { 
+  margin: 0px 5px 0px 5px; 
+  padding: 0px 5px 0px 5px;
+}
+
+.middle{
+  text-align:center;
+}
+
+.cardTitle {
+  background-color:#EEEEEE;
+  width: 36rem;
+}
+
+.widthrem36 {
+  width: 36rem;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+.Menu {
+  border: 1px solid rgba(0,0,0,.125);
+}
+
+.MenuItem {
+  color : #6c757d !important;
+}
+
+.MenuItem.nav-link.active {
+  background-color:#fdead5 !important;
+  color:#ff7200 !important;
+}
+
+.inline {
+  display: inline-block;
+  _display: inline;
+}
+
+Table.Fixed {
+  table-layout: fixed;
+  width:2200px;
+  overflow-y:scroll;
+}
+
+.h1disc {
+  font-size:24px;
+  font-size: 2.0rem;
+  font-weight :700;
+  color:#14c3dc;
+}
+
+img {
+  border: 1px #000000 solid;
+  }
+
+aside {
+    position: relative;
+    padding: 30px 15px 8px 15px;
+    box-sizing: border-box;
+    font-style: italic;
+    background: #dcf6ff;
+    color: #555;
+}
+
+aside p {
+    padding: 0;
+    margin: 10px 0;
+    line-height: 1.7;
+}
+
+aside cite {
+    display: block;
+    text-align: right;
+    color: #888888;
+    font-size: 0.9em;
+}
+
+.cardHead{
+  background:midnightblue;
+  color: #fff;
+}
