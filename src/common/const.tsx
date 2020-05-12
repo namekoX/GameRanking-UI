@@ -8,7 +8,7 @@ export default class Const {
   static MENU_YAHOO_URL = Const.MENU_URL + "/Yahoo/";
   static BASE_DATE_START:Date = new Date(Date.parse('2019/11/01 00:00:00'));
   static BASE_DATE_END:Date = new Date(Date.parse(new Date().getFullYear() + '/' + (new Date().getMonth() + 1) + '/1 00:00:00'));
-  static SITE_ROOT = "/app3";
+  static SITE_ROOT = "/gameranking";
 
   static GET_LIST_ENTRY_URL="/phproot/gameRanking/select.php";
 }

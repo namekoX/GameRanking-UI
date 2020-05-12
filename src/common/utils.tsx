@@ -12,7 +12,7 @@ export function createURL(url: string, prams?: { [key: string]: any; }) {
     let host: string = "";
     let opt: string = "";
     if (process.env.NODE_ENV === "production") {
-        host = "https://localhost";
+        host = "https://slavesystem.info";
     } else {
         host = "https://localhost";
     }
@@ -29,7 +29,7 @@ export function createURL(url: string, prams?: { [key: string]: any; }) {
 
 export function getGAID(){
     if (process.env.NODE_ENV === "production") {
-        return "";
+        return "UA-166130091-1";
     } else {
         return "";
     }

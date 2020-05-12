@@ -28,7 +28,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "cross-env PUBLIC_URL=/app3/ react-scripts build",
+    "build": "cross-env PUBLIC_URL=/gameranking/ react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "sitemap": "babel-node src/sitemap/sitemap-generator.js",
