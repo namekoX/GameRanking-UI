@@ -11,8 +11,8 @@ export interface ListEntryState {
 }
 
 export const listEntryDefault: ListEntryState = {
-  month: new Date(),
-  yearMonth: createYearMonth(new Date()),
+  month: new Date(Date.parse('2020/08/01 00:00:00')),
+  yearMonth: createYearMonth(new Date(Date.parse('2020/08/01 00:00:00'))),
   platform: "",
   loading:false,
   entry: {
