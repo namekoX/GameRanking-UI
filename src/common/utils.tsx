@@ -29,7 +29,7 @@ export function createURL(url: string, prams?: { [key: string]: any; }) {
 
 export function getGAID(){
     if (process.env.NODE_ENV === "production") {
-        return "UA-166130091-1";
+        return "G-286W0S04D2";
     } else {
         return "";
     }
